@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive Earthquake Map</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Interactive Earthquake Map">
+  <meta name="author" content="M Clifton">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Interactive Earthquake Map</h1>
+    <h2>examine the earthquakes dataset included in R</h2>
+    <p>M Clifton<br/>Data Scientist</p>
+  </hgroup>
+    <a href="https://github.com/matt-mk/earthquakeApp/zipball/gh-pages" class="example">
+     Download
+    </a>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Earthquake App</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>This app uses the quake dataset found within R</li>
+<li>It utilises the Leaflet package providing a background against which earthquake data can be mapped.</li>
+<li>The data includes:
+
+<ul>
+<li>the latitude and longitude of earthquakes around Fiji</li>
+<li>the magnitude of the earthquakes</li>
+<li>information pertaining to earthquakes with a magnitude greater than 4</li>
+</ul></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Screen Shot</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="Capture.png" alt=""> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Using the App</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Check/Uncheck the checkbox if you would like the legend to be visible</li>
+<li>Slide the slidebar to determine which quakes should be displayed by magnitude</li>
+<li>Set your reactive colour options with the palette control</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Why is this app interesting?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This app is interesting because it provides a template against which geographic data and information may be displayed in a compelling and interactive manner.</p>
+
+<p>Location and place are not the same, and places have physical and human attributes.<br>
+Geointelligence is about the integration of both and maps such as these provide the opportunity to investigate how places interact with one another.</p>
+
+<p>Using R to map geographical information therefore helps to develop cognitive thinking about places.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Earthquake App'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Screen Shot'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Using the App'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Why is this app interesting?'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
